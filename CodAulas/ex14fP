@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1>3DAW</h1>
+	
+	<form action="ex14fP" method ="POST">
+	Valores: <input type="text" name="val1" value=<?php echo $v1?>>
+	+ 
+	<input type="text" name="val2" value=<?php echo $v2?>> 
+	= <?php if ($resul !=0) echo $resul; ?>
+	<br><br>
+
+	<input type="submit" value="Somar">;
+	
+	</form>
+
+</body>
+</html>
