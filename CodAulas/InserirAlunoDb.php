@@ -15,9 +15,9 @@
 			//print_r($resul);
 		}
 		catch (PDOException $e) {
-			print "ERROR! " : .$e->getMessage() . "<br/>"; 
-			die();
-	}
+		print "Error!: " . $e->getMessage() . "<br/>";
+		die();
+		
 ?>
 
 <html>
